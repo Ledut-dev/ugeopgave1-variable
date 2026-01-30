@@ -52,7 +52,7 @@ public class VariableBasics {
          */
 
         //opgave Array
-
+        /*
         String[] names = {"August","Lukas","Jesper"};
 
         String[] sortedNames = new String[3];
@@ -73,4 +73,6 @@ public class VariableBasics {
 
         System.out.println("Length of Array "+names.length);
     }
+
+         */
 }

@@ -16,7 +16,9 @@ public class VariableBasics {
 
         System.out.println("Subtotal - "+subtotal+" kr");
         System.out.println("With tax - "+withTax+" kr");
+
          */
+
 
         //opgave 2
         /*
@@ -48,5 +50,27 @@ public class VariableBasics {
         System.out.println(finalPrice);
 
          */
+
+        //opgave Array
+
+        String[] names = {"August","Lukas","Jesper"};
+
+        String[] sortedNames = new String[3];
+        sortedNames[0] = "Jesper";
+        sortedNames[1] = "Lukas";
+
+        String a = sortedNames[0];
+
+        System.out.println(names[0]);
+        System.out.println(sortedNames[1]);
+        System.out.println(a);
+
+        for (int i = 0; i < names.length; i++){
+
+            System.out.println("Person "+(i+1)+" = "+names[i]);
+
+        }
+
+        System.out.println("Length of Array "+names.length);
     }
 }

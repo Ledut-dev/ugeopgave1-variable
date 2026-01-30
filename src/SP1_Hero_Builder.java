@@ -16,6 +16,7 @@ public class SP1_Hero_Builder {
         System.out.println("======= Character Sheet =======");
         System.out.println("Name: "+name);
         System.out.println("Class: "+specialization);
+        System.out.println("Level: "+level);
         System.out.println("Health: "+healthPoints+"/"+maxHealth);
         System.out.println("XP: "+experiencePoints);
         System.out.println("Gold: "+gold);

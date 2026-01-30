@@ -72,7 +72,8 @@ public class VariableBasics {
         }
 
         System.out.println("Length of Array "+names.length);
-    }
 
          */
+    }
+
 }
